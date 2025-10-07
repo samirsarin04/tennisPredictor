@@ -1,0 +1,26 @@
+# ========================================
+# Python / Streamlit Project .gitignore
+# ========================================
+
+# ---- Python compiled files ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+*.env
+
+# ---- IDE / Editor configs ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS / Cache ----
+.DS_Store
+Thumbs.db
